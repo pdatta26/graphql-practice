@@ -71,7 +71,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'GraphqlProject.wsgi.application'
-
+GRAPHENE = {
+    "SCHEMA": "cookbook.schema.schema"
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
